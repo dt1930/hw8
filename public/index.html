@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundMixer</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="leftPart">
+            <div class="leftPart__instrument" id="bassDrumHit">
+                <img src="./images/bassDrumHit.png"/>
+            </div>
+            <div class="leftPart__instrument" id="bassWithCymbal">
+                <img src="./images/bassWithCymbal.png"/>
+            </div>
+            <div class="leftPart__instrument" id="hardKickDrum">
+                <img src="./images/hardKickDrum.png"/>
+            </div>
+        </div>
+        <div class="instructions">
+            <h1>Sound Mixer</h1>
+            <p>Click the boxes and DJ with friends</p>
+        </div>
+        <div class="rightPart">
+            <div class="rightPart__instrument" id="crash">
+                <img src="./images/crash.png"/>
+            </div>
+            <div class="rightPart__instrument" id="fastWoosh">
+                <img src="./images/fastWoosh.png"/>
+            </div>
+            <div class="rightPart__instrument" id="shortHits">
+                <img src="./images/shortHits.png"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
