@@ -6,7 +6,7 @@
 ## A. Constructing a wireframe
 
 I used the following wireframe for the assignment.
-![wireframe](https://dt1930.github.io/connections_labs2022/hw8/wireframe.png?raw=true)
+![wireframe](wireframe.png)
 
 ## B. HTML+CSS
 
@@ -20,7 +20,7 @@ On the client side, we use ‘connect’ to make the connection to the socket an
 ## D. Client-end JS
 
 First, all the necessary dependencies and packages are imported. An express object is defined and stored in an app that is wrapped in http server, and sockets wrap the http server. Then, the server checks for any connection, and on receiving the connection, console logs in (the terminal side) that a new client has joined. Also, if the user disconnects, the server displays a disconnect message in the terminal. The server, on receiving any information about any instrument being clicked, emits that information to all the clients. The overall process is shown in the image below:
-![process](https://dt1930.github.io/connections_labs2022/hw8/process.png?raw=true)
+![process](process.png)
 
 
 ## E. Self-evaluation of the final result
